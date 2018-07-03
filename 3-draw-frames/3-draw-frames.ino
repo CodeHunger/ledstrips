@@ -4,7 +4,7 @@
 #define AMOUNT_OF_LEDS 10
 #define DELAY 1000
 
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(10, PIN, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(AMOUNT_OF_LEDS, PIN, NEO_GRB + NEO_KHZ800);
 
 uint32_t frame[AMOUNT_OF_LEDS] = {
   0x000000,
